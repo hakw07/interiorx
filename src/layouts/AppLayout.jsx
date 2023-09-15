@@ -1,11 +1,18 @@
 import React from 'react';
-import Topbar from '../components/Topbar';
 
-const AppLayout = () => {
+// components
+import Topbar from '../components/Topbar';
+import Header from '../components/Header';
+import Footer from '../components/Footer';
+
+const AppLayout = ({children}) => {
     return (
-        <div className="appLayout">
+        <>
             <Topbar/>
-        </div>
+            <Header/>
+            {children}
+            <Footer/>
+        </>
     );
 }
 
