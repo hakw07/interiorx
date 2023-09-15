@@ -1,0 +1,56 @@
+.footer {
+    background: #0f0d17;
+
+    .footer-col {
+        width: 30%;
+
+        &:first-child {
+            width: 33%;
+
+            .logo {
+                letter-spacing: 2px;
+    
+                span {
+                    color: orange;
+                }
+            }
+
+            .socialLink {
+                border: 2px solid #fff;
+                text-decoration: none;
+                margin-right: 0.6rem;
+                height: 2.4rem;
+                width: 2.4rem;
+
+                .icon {
+                    color: #fff;
+                    font-size: 1.1rem;
+                }
+            }
+        }
+
+        .title {
+            letter-spacing: 2px;
+        }
+
+        .redirects {
+            > p {
+                padding-bottom: 0.1rem;
+                border-bottom: 1px solid #222;
+            }
+        }
+
+        .address {
+            > p {
+                padding-bottom: 0.1rem;
+                border-bottom: 1px solid #222;
+
+                strong {
+                    color: orange;
+                    letter-spacing: 2px;
+                    width: 4rem;
+                }
+            }
+        }
+    }
+}
