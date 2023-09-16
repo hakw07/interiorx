@@ -1,0 +1,44 @@
+.carouselItem {
+    position: relative;
+    height: 100vh;
+    min-height: 360px;
+    font-family: BerlinSansFBDemiBold;
+}
+
+.carouselItem1 {
+    background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carouselItem2 {
+    background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carouselItem3 {
+    background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.carouselCaption {
+    width: 800px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -55%);
+
+    h1 {
+        font-size: 4rem;
+        font-weight: 800;
+        text-shadow: 0.1rem 0.1rem 2rem #222;
+    }
+
+    .link {
+        font-size: 1.3rem;
+        padding: 1rem 2rem;
+        box-shadow: 0.1rem 0.1rem 2rem #222;
+    }
+}
