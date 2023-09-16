@@ -45,7 +45,7 @@ const Footer = () => {
                 <div className="footer-col text-white">
                     <p className="my-0 fs-5 title"><strong>Contact Us</strong></p>
                     <p className="mt-3">North Tower(3rd floor), Dhaka, Bangladesh</p>
-                    <div class="address">
+                    <div className="address">
                         <p className="d-flex align-items-center"><strong>Phone: </strong><span>+88 01234-567899, +88 01298-765431</span></p>
                         <p className="d-flex align-items-center"><strong>Email: </strong><span>interiorx@example.com</span></p>
                         <p className="d-flex align-items-center"><strong>Web: </strong><a href="/" className="text-decoration-none text-white">www.interiorx.com</a></p>
@@ -53,7 +53,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div class="copyright container py-4 d-flex align-items-center justify-content-center">
+            <div className="copyright container py-4 d-flex align-items-center justify-content-center">
                 <p className="my-0 text-white">Created by <a className="text-decoration-none" href="https://github.com/riazul01" target="_blank" rel="noreferrer">riazul01</a> | &copy; 2023 - All Rights Reserved</p>
             </div>
         </footer>

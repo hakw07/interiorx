@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
-import Logo from '../assets/images/logo.png';
+import Logo from '../assets/images/utilities/logo.png';
 
 // bootstrap components
 import Container from 'react-bootstrap/Container';
@@ -12,15 +12,15 @@ const Header = () => {
     return (
         <Navbar expand="lg" className="bg-white header">
             <Container className="position-relative">
-                <Navbar.Brand href="/">
-                    <img src={Logo} style={{width: '160px', height: '64px'}} alt="interiorx" />
-                </Navbar.Brand>
-
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+                <Link to="/" className="logo">
+                    <img src={Logo} alt="interiorx" />
+                </Link>
+        
+                <Navbar.Toggle aria-controls="basic-navbar-nav"/>
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto navLinks">
-                        <NavLink className="me-3 text-uppercase nav-link">Home</NavLink>
+                        <NavLink to="/" className="me-3 text-uppercase nav-link">Home</NavLink>
                         <NavLink to="/about" className="me-3 text-uppercase nav-link">About Us</NavLink>
 
                         <NavDropdown title="Our Services" id="basic-nav-dropdown" className="me-3 text-uppercase">
