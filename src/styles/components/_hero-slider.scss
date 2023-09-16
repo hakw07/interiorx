@@ -2,7 +2,7 @@
     position: relative;
     height: 100vh;
     min-height: 360px;
-    font-family: BerlinSansFBDemiBold;
+    font-family: $font-bold;
 }
 
 .carouselItem1 {
@@ -12,13 +12,13 @@
 }
 
 .carouselItem2 {
-    background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/1.jpg');
+    background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/2.jpg');
     background-size: cover;
     background-position: center;
 }
 
 .carouselItem3 {
-    background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/1.jpg');
+    background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/3.jpg');
     background-size: cover;
     background-position: center;
 }
@@ -34,11 +34,15 @@
         font-size: 4rem;
         font-weight: 800;
         text-shadow: 0.1rem 0.1rem 2rem #222;
+        animation-duration: 1.7s;
+        animation-delay: 0.6s;
     }
 
     .link {
         font-size: 1.3rem;
         padding: 1rem 2rem;
         box-shadow: 0.1rem 0.1rem 2rem #222;
+        animation-duration: 1.7s;
+        animation-delay: 1.7s
     }
 }
