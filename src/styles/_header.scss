@@ -1,0 +1,57 @@
+.header {
+    font-family: $font-bold;
+    border-bottom: 1px solid #ddd;
+
+    .navLinks {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+
+        .nav-link {
+            font-size: 1.2rem;
+    
+            &:hover {
+                color: $blue;
+            }
+    
+            &.active {
+                color: $blue;
+            }
+        }
+    
+        .dropdown-item {
+            font-size: 1.2rem;
+            font-family: $font-family-base;
+    
+            &:hover {
+                background: silver;
+            }
+    
+            &.active {
+                color: $blue;
+            }
+        }
+    }
+
+    .quoteBtn {
+        padding: 0.6rem 1rem;
+        border: 2px solid #3184a5;
+    }
+}
+
+@media screen and (max-width: '992px') {
+    .header {
+        .navLinks {
+            padding-left: 1.6rem;
+            position: relative;
+            left: 0;
+            transform: translateX(0);
+        }
+
+        .quoteBtn {
+            position: absolute;
+            right: 5.6rem;
+            top: 0.92rem;
+        }
+    }
+}

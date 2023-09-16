@@ -6,24 +6,4 @@
 @import './styles/reset';
 @import './styles/topbar';
 @import './styles/footer';
-
-.navLinks {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-@media screen and (max-width: '992px') {
-    .navLinks {
-        padding-left: 1.6rem;
-        position: relative;
-        left: 0;
-        transform: translateX(0);
-    }
-
-    .quoteBtn {
-        position: absolute;
-        right: 5.6rem;
-        top: 1.64rem;
-    }
-}
+@import './styles/header';

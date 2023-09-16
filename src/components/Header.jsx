@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from '../assets/images/logo.png';
 
 // bootstrap components
@@ -9,9 +10,9 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
     return (
-        <Navbar expand="lg" className="bg-white">
-            <Container className="position-relative" style={{fontFamily: 'BerlinSansFBDemiBold'}}>
-                <Navbar.Brand href="#home">
+        <Navbar expand="lg" className="bg-white header">
+            <Container className="position-relative">
+                <Navbar.Brand href="/">
                     <img src={Logo} style={{width: '160px', height: '64px'}} alt="interiorx" />
                 </Navbar.Brand>
 
@@ -19,25 +20,19 @@ const Header = () => {
 
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto navLinks">
-                        <Nav.Link href="#home" className="me-3 text-uppercase" style={{fontSize: '1.2rem'}}>Home</Nav.Link>
-                        <Nav.Link href="#link" className="me-3 text-uppercase" style={{fontSize: '1.2rem'}}>About Us</Nav.Link>
+                        <NavLink className="me-3 text-uppercase nav-link">Home</NavLink>
+                        <NavLink to="/about" className="me-3 text-uppercase nav-link">About Us</NavLink>
 
-                        <NavDropdown title="Our Services" id="basic-nav-dropdown" className="me-3 text-uppercase" style={{fontSize: '1.2rem'}}>
-                            <NavDropdown.Item href="#action/3.2" className="me-3 text-uppercase" style={{fontSize: '1.2rem', fontFamily: 'Berlin Sans FB'}}>
-                                Interior
-                            </NavDropdown.Item>
-                            <NavDropdown.Item href="#action/3.3" className="me-3 text-uppercase" style={{fontSize: '1.2rem', fontFamily: 'Berlin Sans FB'}}>
-                                Construction
-                            </NavDropdown.Item>
+                        <NavDropdown title="Our Services" id="basic-nav-dropdown" className="me-3 text-uppercase">
+                            <NavLink to="/interior" className="me-3 text-uppercase dropdown-item">Interior</NavLink>
+                            <NavLink to="/construction" className="me-3 text-uppercase dropdown-item">Construction</NavLink>
                         </NavDropdown>
 
-                        <Nav.Link href="#about" className="me-3 text-uppercase" style={{fontSize: '1.2rem'}}>Contact Us</Nav.Link>
+                        <NavLink to="/contact" className="me-3 text-uppercase nav-link">Contact Us</NavLink>
                     </Nav>
                 </Navbar.Collapse>
 
-                <div className="quoteBtn">
-                    <a href="#" className="text-decoration-none fs-6 text-uppercase text-primary" style={{padding: '0.7rem 0.9rem', border: '2px solid #3184a5'}}>Get a quote</a>
-                </div>
+                <Link to="/" className="text-decoration-none fs-6 text-uppercase text-primary quoteBtn">Get a quote</Link>
             </Container>
         </Navbar>
     );

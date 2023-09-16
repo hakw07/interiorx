@@ -1,4 +1,6 @@
 import React from 'react';
+
+// icons
 import { FaPhoneAlt } from 'react-icons/fa';
 import { IoMdMail } from 'react-icons/io';
 
