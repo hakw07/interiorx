@@ -11,7 +11,7 @@ const HeroSlider = () => {
     };
 
     return (
-        <Carousel activeIndex={index} onSelect={handleSelect}>
+        <Carousel className="carousel" activeIndex={index} onSelect={handleSelect}>
             <Carousel.Item className="carouselItem carouselItem1" interval={1000}>
                 <Carousel.Caption className="carouselCaption">
                     <h1 className="animate__animated animate__fadeInDown">We create beautiful home interior design</h1>

@@ -1,6 +1,7 @@
 .header {
     font-family: $font-bold;
     border-bottom: 1px solid #ddd;
+    z-index: 99999;
 
     .logo {
         > img {
@@ -43,6 +44,25 @@
     .quoteBtn {
         padding: 0.6rem 1rem;
         border: 2px solid #3184a5;
+    }
+
+    &.active {
+        position: fixed;
+        width: 100%;
+        top: 0;
+        left: 0;
+        transform: translateY(0);
+        animation: animate 0.4s ease forwards;
+    }
+
+    @keyframes animate {
+        from {
+            transform: translateY(-10rem);
+        }
+        
+        to {
+            transform: translateY(0);
+        }
     }
 }
 
