@@ -6,9 +6,12 @@
 // base
 @import './styles/base/fonts';
 @import './styles/base/reset';
+@import './styles/base/global';
 
 // components
 @import './styles/components/topbar';
 @import './styles/components/header';
 @import './styles/components/footer';
 @import './styles/components/hero-slider';
+
+@import './styles/home.scss';
