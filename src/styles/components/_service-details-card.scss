@@ -1,0 +1,72 @@
+.serviceDetailsCard {
+    position: relative;
+    width: 100%;
+    display: flex;
+
+    &.interior {
+        flex-direction: row-reverse;
+    }
+
+    .serviceDetailsCardImg {
+        height: 600px;
+        width: 660px;
+        box-shadow: 4px 4px 15px gray;
+
+        > img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .serviceDetailsCardDesc {
+        position: absolute;
+        top: 50%;
+        width: 680px;
+        height: 420px;
+        background: #eee;
+        border-radius: 0.2rem;
+        box-shadow: 4px 4px 15px silver;
+
+        &.constructionDesc {
+            left: 90%;
+            transform: translate(-90%, -50%);
+        }
+
+        &.interiorDesc {
+            left: 10%;
+            transform: translate(-10%, -50%);
+        }
+
+        > h2 {
+            color: #444;
+            font-size: 2.7rem;
+            letter-spacing: 3px;
+            font-family: $font-bold;
+            text-transform: uppercase;
+            padding: 2rem 2rem 0 2rem;
+
+            &::first-letter {
+                color: $blue;
+                font-size: 3.2rem;
+            }
+        }
+
+        > p {
+            color: #444;
+            font-size: 1.1rem;
+            padding: 2rem 2rem 0 2rem;
+        }
+
+        .learnMoreBtn {
+            padding: 0.6rem 1rem;
+            border: 2px solid $blue;
+            text-decoration: none;
+            font-family: $font-bold;
+        
+            &:hover {
+                color: $blue;
+            }
+        }        
+    }
+}
