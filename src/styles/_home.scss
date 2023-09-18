@@ -1,4 +1,4 @@
-#services {
+#serviceCards {
     .card {
         position: relative;
         height: 24rem;
@@ -32,7 +32,7 @@
             transform: scale(1.2);
         }
     
-        .card-text-content {
+        .cardTextContent {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -41,7 +41,7 @@
             z-index: 999;
         }
     
-        .card-text-content > p {
+        .cardTextContent > p {
             padding: 0 0.6rem;
             color: #fff;
             font-size: 2.6rem;
@@ -51,6 +51,96 @@
             text-transform: capitalize;
             text-shadow: 2px 2px 4px #444;
         }
-        
+    }
+}
+
+.serviceDetailsCard {
+    position: relative;
+    width: 100%;
+}
+
+
+/* construction */
+.construction-content {
+    display: flex;
+}
+
+
+/* interior */
+.interior-content {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.serviceDetailsCardImg {
+    height: 600px;
+    width: 660px;
+    box-shadow: 4px 4px 15px gray;
+}
+
+.serviceDetailsCardImg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.serviceDetailsCardText {
+    height: 420px;
+    width: 680px;
+    box-shadow: 4px 4px 15px silver;
+}
+
+
+/* construnction */
+.construction-text {
+    position: absolute;
+    top: 50%;
+    left: 90%;
+    transform: translate(-90%, -50%);
+    background: #eee;
+    border-radius: 0.2rem;
+}
+
+
+/* interior */
+.interior-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-10%, -50%);
+    background: #eee;
+    border-radius: 0.2rem;
+}
+
+.serviceDetailsCardText h2 {
+    color: #444;
+    font-size: 2.7rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    padding: 2rem 2rem 0 2rem;
+    font-family: $font-bold;
+}
+
+.serviceDetailsCardText h2::first-letter {
+    color: $blue;
+    font-size: 3.2rem;
+    font-weight: 600;
+}
+
+.serviceDetailsCardText p {
+    color: #444;
+    font-size: 1.1rem;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.learnMoreBtn {
+    padding: 0.6rem 1rem;
+    border: 2px solid $blue;
+    text-decoration: none;
+    font-family: $font-bold;
+
+    &:hover {
+        color: $blue;
     }
 }
