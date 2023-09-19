@@ -4,14 +4,16 @@ import HeroSlider from '../components/HeroSlider';
 
 import ServiceCards from '../components/ServiceCards';
 import ServiceDetailsCard from '../components/ServiceDetailsCard';
+import ExclusiveGallary from '../components/ExclusiveGallary';
 
 const Home = () => {
     return (
         <AppLayout>
-            <HeroSlider/> 
+            <HeroSlider/>
             <ServiceCards/>
             <ServiceDetailsCard type="construction"/>
             <ServiceDetailsCard type="interior"/>
+            <ExclusiveGallary/>
         </AppLayout>
     );
 }

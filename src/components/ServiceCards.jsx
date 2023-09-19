@@ -7,7 +7,7 @@ import ConstructionImg from '../assets/images/construction/01.jpg';
 const ServiceCards = () => {
     return (
         <div id="serviceCards">
-            <div className="section-title pt-5">
+            <div className="sectionTitle pt-5">
                 <h1 className="text-center text-uppercase"><span>Our</span> Services</h1>
                 <p className="text-center text-uppercase">What we do</p>
             </div>
