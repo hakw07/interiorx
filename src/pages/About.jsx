@@ -1,10 +1,12 @@
 import React from 'react';
+import AppLayout from '../layouts/AppLayout';
+import BreadCrumb from '../components/BreadCrumb';
 
 const About = () => {
     return (
-        <div>
-            <h1>Hello!</h1>
-        </div>
+        <AppLayout>
+            <BreadCrumb page="about" />
+        </AppLayout>
     );
 }
 
