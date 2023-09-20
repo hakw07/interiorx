@@ -6,6 +6,7 @@ import './App.scss';
 // aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import About from './pages/About';
 AOS.init();
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
       </Routes>
     </BrowserRouter>
   );
