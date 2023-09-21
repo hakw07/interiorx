@@ -1,11 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-const BreadCrumb = ({page}) => {
+const BreadCrumb = ({ page }) => {
     return (
         <div className="breadcrumb">
             <div className="container-lg d-flex justify-content-between align-items-center">
-                <h2 className="my-0 text-uppercase">About us</h2>
+                {page === 'about' && <h2 className="my-0 text-uppercase">About us</h2>}
+                {page === 'interior' && <h2 className="my-0 text-uppercase">Our Services</h2>}
+                {page === 'construction' && <h2 className="my-0 text-uppercase">Our Services</h2>}
+                {page === 'contact' && <h2 className="my-0 text-uppercase">Contact Us</h2>}
 
                 <ul className="my-0 d-flex align-items-center">
                     <li><Link to="/" className="link">Home <span>/</span></Link></li>
@@ -22,6 +25,7 @@ const BreadCrumb = ({page}) => {
                             <li aria-current="page"><Link to="/construction" className="link active">Construction</Link></li>
                         </>
                     )}
+                    {page === 'contact' && <li aria-current="page"><Link to="/contact" className="link active">Contact</Link></li>}
                 </ul>
             </div>
         </div>
