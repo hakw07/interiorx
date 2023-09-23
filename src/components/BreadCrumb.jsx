@@ -6,8 +6,8 @@ const BreadCrumb = ({ page }) => {
         <div className="breadcrumb">
             <div className="container-lg d-flex justify-content-between align-items-center">
                 {page === 'about' && <h2 className="my-0 text-uppercase">About us</h2>}
-                {page === 'interior' && <h2 className="my-0 text-uppercase">Our Services</h2>}
-                {page === 'construction' && <h2 className="my-0 text-uppercase">Our Services</h2>}
+                {(page === 'interior' || page === 'construction') && <h2 className="my-0 text-uppercase">Our Services</h2>}
+                {(page === 'project-interior' || page === 'project-construction') && <h2 className="my-0 text-uppercase">Project Gallary</h2>}
                 {page === 'contact' && <h2 className="my-0 text-uppercase">Contact Us</h2>}
 
                 <ul className="my-0 d-flex align-items-center">
@@ -23,6 +23,18 @@ const BreadCrumb = ({ page }) => {
                         <>
                             <li><Link to="/construction" className="link">Our Services <span>/</span></Link></li>
                             <li aria-current="page"><Link to="/construction" className="link active">Construction</Link></li>
+                        </>
+                    )}
+                    {page === 'project-interior' && (
+                        <>
+                            <li><Link to="/interior" className="link">Our Services <span>/</span></Link></li>
+                            <li aria-current="page"><Link to="/project-gallary" className="link active">Gallary</Link></li>
+                        </>
+                    )}
+                    {page === 'project-construction' && (
+                        <>
+                            <li><Link to="/construction" className="link">Our Services <span>/</span></Link></li>
+                            <li aria-current="page"><Link to="/project-gallary" className="link active">Gallary</Link></li>
                         </>
                     )}
                     {page === 'contact' && <li aria-current="page"><Link to="/contact" className="link active">Contact</Link></li>}

@@ -29,7 +29,7 @@ const ExclusiveGallary = () => {
     }
 
     return (
-        <div className="exclusiveGallary container-xxl pt-4">
+        <div className="gallary container-xxl pt-4">
             <div className="sectionTitle pt-5">
                 <h1 className="text-center text-uppercase"><span>Exclusive</span> Projects</h1>
             </div>

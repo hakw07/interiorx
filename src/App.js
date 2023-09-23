@@ -10,6 +10,7 @@ import './App.scss';
 // aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import ProjectGallary from './pages/ProjectGallary';
 AOS.init();
 
 const App = () => {
@@ -20,7 +21,8 @@ const App = () => {
         <Route path='/about' element={<About/>}/>
         <Route path='/interior' element={<Interior/>}/>
         <Route path='/construction' element={<Construction/>}/>
-        <Route path='/contact' element={<Contact/>}/>
+        <Route path='/construction' element={<Construction/>}/>
+        <Route path='/project-gallary' element={<ProjectGallary/>}/>
       </Routes>
     </BrowserRouter>
   );

@@ -1,4 +1,4 @@
-.exclusiveGallary {
+.gallary {
     display: grid;
     place-items: center;
     padding-bottom: 2rem;
@@ -151,6 +151,18 @@
                     to {
                         transform: scale(1);
                     }
+                }
+            }
+        }
+
+        .projectItems {
+            .card {
+                &::before {
+                    background: linear-gradient(45deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+                }
+
+                .hoverText {
+                    font-size: 2rem;
                 }
             }
         }
