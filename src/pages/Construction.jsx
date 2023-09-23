@@ -2,158 +2,158 @@ import React from 'react';
 import AppLayout from '../layouts/AppLayout';
 import BreadCrumb from '../components/BreadCrumb';
 
-import InteriorImg01 from '../assets/images/interior/01.jpg';
-import InteriorImg02 from '../assets/images/interior/02.jpg';
-import InteriorImg03 from '../assets/images/interior/03.jpg';
-import InteriorImg05 from '../assets/images/interior/05.jpg';
-import InteriorImg06 from '../assets/images/interior/06.jpg';
-import InteriorImg08 from '../assets/images/interior/08.jpg';
-import ExclusiveImg01 from '../assets/images/exclusive/01.jpg';
-import ExclusiveImg02 from '../assets/images/exclusive/02.jpg';
-import ExclusiveImg03 from '../assets/images/exclusive/03.jpg';
-import ExclusiveImg04 from '../assets/images/exclusive/04.jpg';
-import ExclusiveImg05 from '../assets/images/exclusive/05.jpg';
-import ExclusiveImg06 from '../assets/images/exclusive/06.jpg';
+import ConstructionImg01 from '../assets/images/construction/01.jpg';
+import ConstructionImg02 from '../assets/images/construction/02.jpg';
+import ConstructionImg09 from '../assets/images/construction/09.jpg';
+import ConstructionImg04 from '../assets/images/construction/04.jpg';
+import ConstructionImg05 from '../assets/images/construction/05.jpg';
+import ConstructionImg06 from '../assets/images/construction/06.jpg';
+import ExclusiveImg07 from '../assets/images/exclusive/07.jpg';
+import ExclusiveImg08 from '../assets/images/exclusive/08.jpg';
+import ExclusiveImg09 from '../assets/images/exclusive/09.jpg';
+import ExclusiveImg10 from '../assets/images/exclusive/10.jpg';
+import ExclusiveImg11 from '../assets/images/exclusive/11.jpg';
+import ExclusiveImg12 from '../assets/images/exclusive/12.jpg';
 
-const Interior = () => {
+const Construction = () => {
     return (
         <AppLayout>
-            <BreadCrumb page="interior"/>
+            <BreadCrumb page="construction"/>
             <div className="sectionTitle pt-5">
-                <h1 className="text-center text-uppercase"><span>Interior </span> Services</h1>
+                <h1 className="text-center text-uppercase"><span>Construction </span> Services</h1>
                 <p className="text-center text-uppercase">What we do</p>
             </div>
 
             <div className="serviceCards container-xl pt-4 pb-5 d-flex flex-wrap justify-content-center justify-content-lg-start" data-aos="fade-up">
                 <div className="card mb-3 ms-2 me-2 flex-grow-1">
-                    <img src={InteriorImg01} alt="interiorImg"/>
+                    <img src={ConstructionImg01} alt="ConstructionImg"/>
 
                     <div className="cardTextContent">
-                        <p>Residential</p>
+                        <p>Soil test</p>
                     </div>
                 </div>
 
                 <div className="card mb-3 ms-2 me-2 flex-grow-1">
-                    <img src={InteriorImg02} alt="interiorImg"/>
+                    <img src={ConstructionImg02} alt="ConstructionImg"/>
 
                     <div className="cardTextContent">
-                        <p>Commercial</p>
+                        <p>Floor plan</p>
                     </div>
                 </div>
 
                 <div className="card mb-3 ms-2 me-2 flex-grow-1">
-                    <img src={InteriorImg03} alt="interiorImg"/>
+                    <img src={ConstructionImg09} alt="ConstructionImg"/>
 
                     <div className="cardTextContent">
-                        <p>Instutution</p>
+                        <p>3d of the project</p>
                     </div>
                 </div>
 
                 <div className="card mb-3 ms-2 me-2 flex-grow-1">
-                    <img src={InteriorImg08} alt="interiorImg"/>
+                    <img src={ConstructionImg04} alt="ConstructionImg"/>
 
                     <div className="cardTextContent">
-                        <p>Office</p>
+                        <p>Structural design</p>
                     </div>
                 </div>
 
                 <div className="card mb-3 ms-2 me-2 flex-grow-1">
-                    <img src={InteriorImg05} alt="interiorImg"/>
+                    <img src={ConstructionImg05} alt="ConstructionImg"/>
 
                     <div className="cardTextContent">
-                        <p>Resort</p>
+                        <p>Landscaping</p>
                     </div>
                 </div>
 
                 <div className="card mb-3 ms-2 me-2 flex-grow-1">
-                    <img src={InteriorImg06} alt="interiorImg"/>
+                    <img src={ConstructionImg06} alt="ConstructionImg"/>
 
                     <div className="cardTextContent">
-                        <p>Hotel</p>
+                        <p>Total construction</p>
                     </div>
                 </div>
             </div>
 
             <div className="container-fluid serviceGallary p-0">
                 <div className="sectionTitle pt-5 pb-5">
-                    <h1 className="text-center text-uppercase">Best Interior <span>Designs</span></h1>
+                    <h1 className="text-center text-uppercase">Construction <span>Projects</span></h1>
                 </div>
 
                 <div className="gallaryWrapper mt-4">
                     <div className="gallaryCard">
-                        <img src={ExclusiveImg01} alt="exclusiveImg"/>
+                        <img src={ExclusiveImg07} alt="exclusiveImg"/>
 
                         <div className="hoverText">
                             <p>Project Preview Title</p>
                         </div>
 
                         <div className="cardText">
-                            <p className="title">Interior Project Title</p>
+                            <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
                     </div>
 
                     <div className="gallaryCard">
-                        <img src={ExclusiveImg02} alt="exclusiveImg"/>
+                        <img src={ExclusiveImg08} alt="exclusiveImg"/>
 
                         <div className="hoverText">
                             <p>Project Preview Title</p>
                         </div>
 
                         <div className="cardText">
-                            <p className="title">Interior Project Title</p>
+                            <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
                     </div>
 
                     <div className="gallaryCard">
-                        <img src={ExclusiveImg03} alt="exclusiveImg"/>
+                        <img src={ExclusiveImg09} alt="exclusiveImg"/>
 
                         <div className="hoverText">
                             <p>Project Preview Title</p>
                         </div>
 
                         <div className="cardText">
-                            <p className="title">Interior Project Title</p>
+                            <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
                     </div>
 
                     <div className="gallaryCard">
-                        <img src={ExclusiveImg04} alt="exclusiveImg"/>
+                        <img src={ExclusiveImg10} alt="exclusiveImg"/>
 
                         <div className="hoverText">
                             <p>Project Preview Title</p>
                         </div>
 
                         <div className="cardText">
-                            <p className="title">Interior Project Title</p>
+                            <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
                     </div>
 
                     <div className="gallaryCard">
-                        <img src={ExclusiveImg05} alt="exclusiveImg"/>
+                        <img src={ExclusiveImg11} alt="exclusiveImg"/>
 
                         <div className="hoverText">
                             <p>Project Preview Title</p>
                         </div>
 
                         <div className="cardText">
-                            <p className="title">Interior Project Title</p>
+                            <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
                     </div>
 
                     <div className="gallaryCard">
-                        <img src={ExclusiveImg06} alt="exclusiveImg"/>
+                        <img src={ExclusiveImg12} alt="exclusiveImg"/>
 
                         <div className="hoverText">
                             <p>Project Preview Title</p>
                         </div>
 
                         <div className="cardText">
-                            <p className="title">Interior Project Title</p>
+                            <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
                     </div>
@@ -163,4 +163,4 @@ const Interior = () => {
     );
 }
 
-export default Interior;
+export default Construction;
