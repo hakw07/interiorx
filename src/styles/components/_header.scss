@@ -16,6 +16,7 @@
         transform: translateX(-50%);
 
         .nav-link {
+            color: #444;
             font-size: 1.2rem;
     
             &:hover {
@@ -26,17 +27,31 @@
                 color: $blue;
             }
         }
-    
-        .dropdown-item {
-            font-size: 1.2rem;
-            font-family: $font-family-base;
-    
-            &:hover {
-                background: silver;
+
+        .activeDropdown {
+            .dropdown-toggle {
+                color: #3184a5;
             }
+        }
+
+        .dropdown-menu {
+            padding: 0.4rem;
+
+            .dropdown-item {
+                font-size: 1.2rem;
+                font-family: $font-family-base;
+                background: #fff;
+                padding: 0.4rem 1rem;
+                border-radius: 0.2rem;
     
-            &.active {
-                color: $blue;
+                &:hover {
+                    background: silver;
+                }
+        
+                &.active {
+                    color: $blue;
+                    background: silver;
+                }
             }
         }
     }

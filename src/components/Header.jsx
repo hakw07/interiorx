@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link, NavLink } from 'react-router-dom';
+import { Link, NavLink, useLocation } from 'react-router-dom';
 import Logo from '../assets/images/utilities/logo.png';
 
 // bootstrap components
@@ -9,6 +9,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
 
 const Header = () => {
+    const data = useLocation();
+    
     return (
         <Navbar expand="lg" className="bg-white header">
             <Container className="position-relative">
@@ -23,7 +25,7 @@ const Header = () => {
                         <NavLink to="/" className="me-3 text-uppercase nav-link">Home</NavLink>
                         <NavLink to="/about" className="me-3 text-uppercase nav-link">About Us</NavLink>
 
-                        <NavDropdown title="Our Services" id="basic-nav-dropdown" className="me-3 text-uppercase">
+                        <NavDropdown title="Our Services" id="basic-nav-dropdown" className={(data.pathname === '/interior' || data.pathname === '/construction') ? 'me-3 text-uppercase activeDropdown' : 'me-3 text-uppercase'}>
                             <NavLink to="/interior" className="me-3 text-uppercase dropdown-item">Interior</NavLink>
                             <NavLink to="/construction" className="me-3 text-uppercase dropdown-item">Construction</NavLink>
                         </NavDropdown>
