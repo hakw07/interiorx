@@ -31,7 +31,7 @@
                     h3 {
                         display: flex;
                         align-items: center;
-                        font-size: 1.2rem;
+                        font-size: 1.4rem;
 
                         strong {
                             margin-left: 1rem;
@@ -69,6 +69,7 @@
                         outline: none;
                         box-sizing: border-box;
                         box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
+                        border-radius: 0.1rem;
                     }
                 }
 
@@ -86,6 +87,7 @@
                         outline: none;
                         box-sizing: border-box;
                         box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
+                        border-radius: 0.1rem;
                     }                        
                 }
 
@@ -102,6 +104,7 @@
                         border: none;
                         outline: none;
                         box-sizing: border-box;
+                        border-radius: 0.1rem;
                     }
                 }
             }
