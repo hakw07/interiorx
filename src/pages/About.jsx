@@ -13,7 +13,7 @@ const About = () => {
         <AppLayout>
             <BreadCrumb page="about" />
             <div className="about container-xl">
-                <div className="aboutWrap">
+                <div className="aboutWrap" data-aos="fade-up" data-aos-duration="700">
                     <div className="aboutImage">
                         <img src={ AboutImage01} alt="about-img"/>
                     </div>
@@ -31,7 +31,7 @@ const About = () => {
                     </div>
                 </div>
 
-                <div className="aboutWrap">
+                <div className="aboutWrap" data-aos="fade-up" data-aos-duration="700">
                     <div className="aboutDesc">
                         <h3>We Build & Install</h3>
                         <h1>Your Dream Construction Project</h1>

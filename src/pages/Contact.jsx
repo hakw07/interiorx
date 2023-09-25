@@ -37,7 +37,7 @@ const Contact = () => {
         <AppLayout>
             <BreadCrumb page="contact"/>
 
-            <div className="container contact">
+            <div className="container contact" data-aos="fade-up" data-aos-duration="700">
                 <div className="contactBox">
                     <div className="contactAddress">
                         <div className="contactTitle">
