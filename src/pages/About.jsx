@@ -2,6 +2,7 @@ import React from 'react';
 import AppLayout from '../layouts/AppLayout';
 import BreadCrumb from '../components/BreadCrumb';
 
+// icons
 import { FaQuoteLeft } from 'react-icons/fa';
 
 // images
@@ -12,6 +13,7 @@ const About = () => {
     return (
         <AppLayout>
             <BreadCrumb page="about" />
+            
             <div className="about container-xl">
                 <div className="aboutWrap" data-aos="fade-up" data-aos-duration="700">
                     <div className="aboutImage">

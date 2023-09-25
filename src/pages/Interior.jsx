@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+// components
 import AppLayout from '../layouts/AppLayout';
 import BreadCrumb from '../components/BreadCrumb';
 
+// images
 import InteriorImg01 from '../assets/images/interior/01.jpg';
 import InteriorImg02 from '../assets/images/interior/02.jpg';
 import InteriorImg03 from '../assets/images/interior/03.jpg';

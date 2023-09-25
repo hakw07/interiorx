@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import { useLocation } from 'react-router-dom';
+
+// components
 import AppLayout from '../layouts/AppLayout';
 import BreadCrumb from '../components/BreadCrumb';
 
@@ -31,7 +34,6 @@ import ConstructionImg09 from '../assets/images/construction/09.jpg';
 import ConstructionImg10 from '../assets/images/construction/10.jpg';
 import ConstructionImg11 from '../assets/images/construction/11.jpg';
 import ConstructionImg12 from '../assets/images/construction/12.jpg';
-import { useLocation } from 'react-router-dom';
 
 const ProjectGallary = () => {
     const [slideIndex, setSlideIndex] = useState(1);

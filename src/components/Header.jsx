@@ -1,5 +1,7 @@
 import React from 'react';
 import { Link, NavLink, useLocation } from 'react-router-dom';
+
+// images
 import Logo from '../assets/images/utilities/logo.png';
 
 // bootstrap components

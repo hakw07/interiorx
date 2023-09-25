@@ -1,8 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
+// components
 import AppLayout from '../layouts/AppLayout';
 import BreadCrumb from '../components/BreadCrumb';
 
+// images
 import ConstructionImg01 from '../assets/images/construction/01.jpg';
 import ConstructionImg02 from '../assets/images/construction/02.jpg';
 import ConstructionImg09 from '../assets/images/construction/09.jpg';
@@ -20,6 +23,7 @@ const Construction = () => {
     return (
         <AppLayout>
             <BreadCrumb page="construction"/>
+            
             <div className="sectionTitle pt-5">
                 <h1 className="text-center text-uppercase"><span>Construction </span> Services</h1>
                 <p className="text-center text-uppercase">What we do</p>

@@ -1,11 +1,17 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+// pages
 import Home from './pages/Home';
 import About from './pages/About';
 import Interior from './pages/Interior';
 import Construction from './pages/Construction';
 import Contact from './pages/Contact';
+
+// effects
 import ScrollToTop from './effects/ScrollToTop';
+
+// scss
 import './App.scss';
 
 // aos
