@@ -204,6 +204,7 @@
                 height: 500px;
                 max-width: 700px;
                 box-sizing: border-box;
+                z-index: 999;
 
                 .header {
                     padding: 0.4rem 0;
@@ -289,6 +290,7 @@
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
+                z-index: 99;
 
                 #leftArrow,
                 #rightArrow {

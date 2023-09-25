@@ -49,11 +49,13 @@ const ProjectGallary = () => {
         setActiveLightbox(false);
     }
 
-    const handleSlideLeft = () => {
+    const handleSlideLeft = (e) => {
+        e.stopPropagation();
         setSlideIndex((prev) => (prev + 11) % 12);
     }
 
-    const handleSlideRight = () => {
+    const handleSlideRight = (e) => {
+        e.stopPropagation();
         setSlideIndex((prev) => ((prev + 1) % 12));
     }
 
@@ -179,7 +181,7 @@ const ProjectGallary = () => {
                             </div>}
                         </div>
 
-                        <div className="arrowBtns" onClick={(e) => e.stopPropagation()}>
+                        <div className="arrowBtns">
                             <span id="leftArrow" onClick={handleSlideLeft}>
                                 <IoIosArrowBack className="arrowIcon"/>
                             </span>
