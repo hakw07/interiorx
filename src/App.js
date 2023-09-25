@@ -5,6 +5,7 @@ import About from './pages/About';
 import Interior from './pages/Interior';
 import Construction from './pages/Construction';
 import Contact from './pages/Contact';
+import ScrollToTop from './effects/ScrollToTop';
 import './App.scss';
 
 // aos
@@ -16,6 +17,7 @@ AOS.init();
 const App = () => {
   return (
     <BrowserRouter>
+      <ScrollToTop/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
