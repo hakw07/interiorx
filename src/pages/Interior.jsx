@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AppLayout from '../layouts/AppLayout';
 import BreadCrumb from '../components/BreadCrumb';
 
@@ -80,7 +81,7 @@ const Interior = () => {
                 </div>
 
                 <div className="gallaryWrapper mt-4">
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="interior" className="gallaryCard">
                         <img src={ExclusiveImg01} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -91,9 +92,9 @@ const Interior = () => {
                             <p className="title">Interior Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="interior" className="gallaryCard">
                         <img src={ExclusiveImg02} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -104,9 +105,9 @@ const Interior = () => {
                             <p className="title">Interior Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="interior" className="gallaryCard">
                         <img src={ExclusiveImg03} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -117,9 +118,9 @@ const Interior = () => {
                             <p className="title">Interior Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="interior" className="gallaryCard">
                         <img src={ExclusiveImg04} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -130,9 +131,9 @@ const Interior = () => {
                             <p className="title">Interior Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="interior" className="gallaryCard">
                         <img src={ExclusiveImg05} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -143,9 +144,9 @@ const Interior = () => {
                             <p className="title">Interior Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="interior" className="gallaryCard">
                         <img src={ExclusiveImg06} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -156,7 +157,7 @@ const Interior = () => {
                             <p className="title">Interior Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </AppLayout>

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 // images
 import ExclusiveImg01 from '../assets/images/exclusive/01.jpg';
@@ -41,7 +42,7 @@ const ExclusiveGallary = () => {
                 </ul>
 
                 <div className="filterItems" data-aos="fade-up" data-aos-duration="700">
-                    <div className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="interior" className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg01} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -49,9 +50,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="interior" className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg02} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -59,9 +60,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="interior" className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg03} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -69,9 +70,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="interior" className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg04} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -81,9 +82,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="interior" className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg05} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -91,9 +92,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="interior" className={`card ${activeInterior ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg06} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -101,9 +102,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="construction" className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg07} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -111,9 +112,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="construction" className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg08} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -121,9 +122,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="construction" className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg09} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -131,9 +132,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="construction" className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg10} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -141,9 +142,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="construction" className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg11} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -151,9 +152,9 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
+                    <Link to="project-gallary" state="construction" className={`card ${activeConstruction ? 'activeCard' : 'deleteCard'}`}>
                         <img src={ExclusiveImg12} alt="exclusiveImg"/>
                         <p className="hoverText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptatibus
                             exercitationem dolorum sit ipsum saepe provident vel repellat reprehenderit.</p>
@@ -161,7 +162,7 @@ const ExclusiveGallary = () => {
                             <p>Project Title Here</p>
                             <p>Stauts</p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import AppLayout from '../layouts/AppLayout';
 import BreadCrumb from '../components/BreadCrumb';
 
@@ -80,7 +81,7 @@ const Construction = () => {
                 </div>
 
                 <div className="gallaryWrapper mt-4">
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="construction" className="gallaryCard">
                         <img src={ExclusiveImg07} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -91,9 +92,9 @@ const Construction = () => {
                             <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="construction" className="gallaryCard">
                         <img src={ExclusiveImg08} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -104,9 +105,9 @@ const Construction = () => {
                             <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="construction" className="gallaryCard">
                         <img src={ExclusiveImg09} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -117,9 +118,9 @@ const Construction = () => {
                             <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="construction" className="gallaryCard">
                         <img src={ExclusiveImg10} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -130,9 +131,9 @@ const Construction = () => {
                             <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="construction" className="gallaryCard">
                         <img src={ExclusiveImg11} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -143,9 +144,9 @@ const Construction = () => {
                             <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
 
-                    <div className="gallaryCard">
+                    <Link to="/project-gallary" state="construction" className="gallaryCard">
                         <img src={ExclusiveImg12} alt="exclusiveImg"/>
 
                         <div className="hoverText">
@@ -156,7 +157,7 @@ const Construction = () => {
                             <p className="title">Construction Project Title</p>
                             <p className="status">Status</p>
                         </div>
-                    </div>
+                    </Link>
                 </div>
             </div>
         </AppLayout>
