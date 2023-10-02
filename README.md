@@ -6,9 +6,9 @@ A Website for interior & construction design agency
 
 ## Features
 ```bash
-- clear and user friendly ui
+- intuitive and user-friendly ui
+- added slider and scroll animatinos
 - filter gallary with lightbox slider
-- implemented slider and scroll animatinos
 - customized bootstrap components
 ```
 
