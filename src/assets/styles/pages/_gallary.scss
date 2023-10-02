@@ -290,7 +290,8 @@
                 width: 100%;
                 display: flex;
                 justify-content: space-between;
-                z-index: 99;
+                pointer-events: none;
+                z-index: 9999;
 
                 #leftArrow,
                 #rightArrow {
@@ -298,6 +299,7 @@
                     display: flex;
                     align-items: center;
                     justify-content: center;
+                    pointer-events: auto;
                     cursor: pointer;
 
                     .arrowIcon {
@@ -316,17 +318,8 @@
             .wrapper {
                 .lightboxContent {
                     height: 460px;
-                    z-index: 999;
                 }
-    
-                .arrowBtns {
-                    z-index: 9999;
-                }
-            }
-        }
 
-        .lightbox {
-            .wrapper {
                 .arrowBtns {
                     padding: 7% 2% 0 2%;
                 }
