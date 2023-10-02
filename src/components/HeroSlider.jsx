@@ -12,13 +12,13 @@ const HeroSlider = () => {
 
     return (
         <Carousel className="carousel" activeIndex={index} onSelect={handleSelect}>
-            <Carousel.Item className="carouselItem carouselItem1 position-relative" interval={1000}>
+            <Carousel.Item className="carouselItem carouselItem1 position-relative">
                 <Carousel.Caption className="carouselCaption position-absolute">
                     <h1 className="animate__animated animate__fadeInDown">We create beautiful home interior design</h1>
                     <Link to="/interior" className="animate__animated animate__fadeInDown mt-2 mt-lg-4 d-inline-block text-decoration-none text-white bg-primary link">Learn More</Link>
                 </Carousel.Caption>
             </Carousel.Item>
-            <Carousel.Item className="carouselItem carouselItem2 position-relative" interval={500}>
+            <Carousel.Item className="carouselItem carouselItem2 position-relative">
                 <Carousel.Caption className="carouselCaption position-absolute">
                     <h1 className="animate__animated animate__fadeInDown">Luxury Interior design for your dream living</h1>
                     <Link to="/interior" className="animate__animated animate__fadeInDown mt-2 mt-lg-4 d-inline-block text-decoration-none text-white bg-primary link">Learn More</Link>              </Carousel.Caption>
