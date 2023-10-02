@@ -3,12 +3,12 @@ import { Link } from 'react-router-dom';
 
 const BreadCrumb = ({ page }) => {
     return (
-        <div className="breadcrumb">
+        <div className="breadcrumb w-100">
             <div className="container d-flex justify-content-between align-items-center">
-                {page === 'about' && <h2 className="my-0 text-uppercase">About us</h2>}
-                {(page === 'interior' || page === 'construction') && <h2 className="my-0 text-uppercase">Our Services</h2>}
-                {(page === 'project-interior' || page === 'project-construction') && <h2 className="my-0 text-uppercase">Project Gallary</h2>}
-                {page === 'contact' && <h2 className="my-0 text-uppercase">Contact Us</h2>}
+                {page === 'about' && <h2 className="my-0 text-white text-uppercase">About us</h2>}
+                {(page === 'interior' || page === 'construction') && <h2 className="my-0 text-white text-uppercase">Our Services</h2>}
+                {(page === 'project-interior' || page === 'project-construction') && <h2 className="my-0 text-white text-uppercase">Project Gallary</h2>}
+                {page === 'contact' && <h2 className="my-0 text-white text-uppercase">Contact Us</h2>}
 
                 <ul className="my-0 d-flex align-items-center">
                     <li><Link to="/" className="link">Home <span>/</span></Link></li>

@@ -1,22 +1,22 @@
-@import './styles/base/variables';
+@import './assets/styles/base/variables';
 
 // bootstrap scss
 @import '~bootstrap/scss/bootstrap';
 
 // base
-@import './styles/base/fonts';
-@import './styles/base/reset';
-@import './styles/base/global';
+@import './assets/styles/base/fonts';
+@import './assets/styles/base/reset';
+@import './assets/styles/base/global';
 
 // components
-@import './styles/components/header';
-@import './styles/components/footer';
-@import './styles/components/hero-slider';
-@import './styles/components/service-details-card';
-@import './styles/components/breadcrumb';
+@import './assets/styles/components/header';
+@import './assets/styles/components/footer';
+@import './assets/styles/components/hero-slider';
+@import './assets/styles/components/service-details-card';
+@import './assets/styles/components/breadcrumb';
 
 // pages
-@import './styles/pages/about';
-@import './styles/pages/contact';
-@import './styles/pages/services';
-@import './styles/pages/gallary';
+@import './assets/styles/pages/about';
+@import './assets/styles/pages/contact';
+@import './assets/styles/pages/services';
+@import './assets/styles/pages/gallary';

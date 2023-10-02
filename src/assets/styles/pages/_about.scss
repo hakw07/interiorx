@@ -42,7 +42,7 @@
 
             button {
                 margin-top: 0.6rem;
-                color: #fff;
+                color: $white;
                 font-size: 1.2rem;
                 height: 2.6rem;
                 width: 8rem;
@@ -58,7 +58,7 @@
 
 .customerReview {
     min-height: 520px;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../../assets/images/exclusive/04.jpg');
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../../images/exclusive/04.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;

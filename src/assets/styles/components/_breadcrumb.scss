@@ -1,13 +1,11 @@
 .breadcrumb {
     height: 11rem;
-    width: 100%;
-    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../../assets/images/utilities/breadcumb.jpg');
+    background: linear-gradient(45deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url('../../images/utilities/breadcumb.jpg');
     background-size: cover;
     border-bottom: 1px solid #ddd;
     box-sizing: border-box;
 
     h2 {
-        color: #fff;
         font-size: 2rem;
         font-weight: 500;
     }

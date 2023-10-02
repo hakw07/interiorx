@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Interior from './pages/Interior';
 import Construction from './pages/Construction';
+import ProjectGallary from './pages/ProjectGallary';
 import Contact from './pages/Contact';
 
 // effects
@@ -17,7 +18,6 @@ import './App.scss';
 // aos
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import ProjectGallary from './pages/ProjectGallary';
 AOS.init();
 
 const App = () => {

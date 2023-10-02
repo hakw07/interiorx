@@ -4,19 +4,19 @@
     font-family: $font-bold;
 
     &.carouselItem1 {
-        background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/1.jpg');
+        background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../images/slider/1.jpg');
         background-size: cover;
         background-position: center;
     }
 
     &.carouselItem2 {
-        background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/2.jpg');
+        background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../images/slider/2.jpg');
         background-size: cover;
         background-position: center;
     }
 
     &.carouselItem3 {
-        background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../assets/images/slider/3.jpg');
+        background: linear-gradient(45deg, rgba(35, 35, 35, 0.4), rgba(35, 35, 35, 0.7)), url('../../images/slider/3.jpg');
         background-size: cover;
         background-position: center;
     }
