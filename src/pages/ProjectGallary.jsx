@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 // components
@@ -41,6 +41,21 @@ const ProjectGallary = () => {
 
     const location = useLocation();
     const type = location.state;
+
+    useEffect(() => {
+         // slide when arrow key down
+         document.onkeydown = (event) => {
+            // slide left
+            if (event.keyCode === 37) {
+                setSlideIndex((prev) => (prev + 11) % 12);
+            }
+
+            // slide right
+            if (event.keyCode === 39) {
+                setSlideIndex((prev) => ((prev + 1) % 12));
+            }
+        }
+    })
 
     const handleShowLightbox = (index) => {
         setActiveLightbox(true);
