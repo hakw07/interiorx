@@ -36,7 +36,7 @@ const Header = () => {
                     </Nav>
                 </Navbar.Collapse>
 
-                <Link to="/" className="text-decoration-none fs-6 text-uppercase text-primary quoteBtn">Get a quote</Link>
+                <Link to="/" className="text-decoration-none text-uppercase text-primary quoteBtn">Get a quote</Link>
             </Container>
         </Navbar>
     );

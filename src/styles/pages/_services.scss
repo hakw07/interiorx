@@ -180,3 +180,92 @@
         }
     }
 }
+
+@media screen and (max-width: 840px) {
+    .serviceCards {
+        .card {
+            height: 20rem;
+            min-width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .serviceCards {
+        .card {
+            height: 18rem;
+
+            .cardTextContent > p {
+                padding: 0 0.6rem;
+                font-size: 2rem;
+            }
+        }
+    }
+
+    .serviceGallary {    
+        .gallaryWrapper {
+            margin-top: 0!important;
+
+            .gallaryCard {
+                height: 360px;
+    
+                .hoverText {
+                    p {
+                        font-size: 1.4rem;
+                    }
+                }
+    
+                .cardText {
+                    padding: 0 2rem 0 2rem;
+                    height: 5rem;
+    
+                    > p {
+                        font-size: 1.4rem;
+                    }
+                }            
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .serviceGallary {    
+        .gallaryWrapper {
+            .gallaryCard {
+                height: 300px;
+    
+                .hoverText {
+                    p {
+                        font-size: 1.4rem;
+                        padding-left: 1.6rem;
+                    }
+                }
+    
+                .cardText {
+                    padding: 0 1.6rem 0 1.6rem;
+                    height: 4rem;
+    
+                    > p {
+                        font-size: 1.4rem;
+                    }
+                }            
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .serviceGallary {    
+        .gallaryWrapper {
+            .gallaryCard {
+                height: 280px;
+    
+                .cardText {
+                    > p {
+                        font-size: 1.3rem;
+                    }
+                }            
+            }
+        }
+    }
+}

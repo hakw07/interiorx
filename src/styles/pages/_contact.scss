@@ -1,25 +1,16 @@
 .contact {
-    padding: 5rem 0;
-
     .contactBox {
         color: #444;
-        display: flex;
-        width: 100%;
-        height: auto;
-        justify-content: center;
+        max-width: 1080px;
 
         .contactAddress {
-            margin-right: 2rem;
-            width: 36%;
-            height: auto;
 
             .contactTitle {
                 h1 {
-                    color: steelblue;
+                    color: $primary;
                 }
 
                 p {
-                    font-size: 1.2rem;
                     width: 90%;
                 }
             }
@@ -29,8 +20,6 @@
                     margin-top: 2rem;
 
                     h3 {
-                        display: flex;
-                        align-items: center;
                         font-size: 1.4rem;
 
                         strong {
@@ -46,15 +35,8 @@
         }
 
         .contactForm {
-            width: 40%;
-            height: auto;
-
             form {
-                width: 100%;
-                height: auto;
-
                 .inputField {
-                    width: 100%;
                     height: 48px;
                     margin-bottom: 2rem;
 
@@ -63,9 +45,6 @@
                         padding: 0 1rem;
                         color: #444;
                         font-size: 1.2rem;
-                        width: 100%;
-                        height: 100%;
-                        border: none;
                         outline: none;
                         box-sizing: border-box;
                         box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
@@ -76,14 +55,11 @@
                 .textareaField {
                     margin-top: 0.8rem;
                     height: 220px;
-                    width: 100%;
 
                     textarea {
                         padding: 1rem;
                         font-size: 1.2rem;
                         height: 200px;
-                        width: 100%;
-                        border: none;
                         outline: none;
                         box-sizing: border-box;
                         box-shadow: 0.1rem 0.1rem 0.6rem #ddd;
@@ -95,16 +71,13 @@
                     margin-top: 0.8rem;
 
                     button {
-                        color: #fff;
                         font-size: 1.3rem;
                         letter-spacing: 1px;
-                        width: 100%;
                         height: 52px;
-                        background: steelblue;
-                        border: none;
                         outline: none;
-                        box-sizing: border-box;
+                        background: $primary;
                         border-radius: 0.1rem;
+                        box-sizing: border-box;
                     }
                 }
             }

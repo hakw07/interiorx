@@ -33,3 +33,33 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .breadcrumb {
+        h2 {
+            font-size: 1.6rem;
+        }
+    
+        ul {    
+            li {
+                .link {
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .breadcrumb {
+        .container {
+            flex-direction: column;
+            justify-content: center!important;
+
+            ul {
+                padding-left: 0;
+                margin-top: 1.2rem!important;
+            }
+        }
+    }
+}

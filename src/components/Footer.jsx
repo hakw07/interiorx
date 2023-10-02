@@ -6,8 +6,8 @@ import { FaFacebookF, FaTwitter, FaLinkedinIn, FaTelegramPlane } from 'react-ico
 const Footer = () => {
     return (
         <footer className="footer">
-            <div className="container py-4 pt-5 d-flex justify-between gap-5">
-                <div className="footer-col text-white">
+            <div className="container py-4 pt-5 d-flex justify-between flex-wrap flex-xl-nowrap gap-3 gap-xl-5">
+                <div className="footer-col text-white mb-4 mb-xl-0">
                     <p className="my-0 fs-2 ls-2 text-uppercase logo"><strong>Interior<span>X</span></strong></p>
                     <p className="mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit dolor nihil iste porro distinctio. In harum
                         quidem mollitia quas natus aliquam dolore dolores officiis neque quae delectus deserunt. Soluta
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                 </div>
 
-                <div className="footer-col">
+                <div className="footer-col mb-3 mb-xl-0">
                     <p className="my-0 fs-5 text-white title"><strong>Latest news</strong></p>
                     <div className="mt-3 redirects">
                         <p className="my-3"><a className="text-decoration-none" href="/">Aut illum consequuntur quae dolores mollitia deserunt</a></p>

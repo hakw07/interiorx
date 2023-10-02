@@ -1,5 +1,4 @@
 .carouselItem {
-    position: relative;
     height: 100vh;
     min-height: 360px;
     font-family: $font-bold;
@@ -24,7 +23,6 @@
 
     .carouselCaption {
         width: 800px;
-        position: absolute;
         top: 55%;
         left: 50%;
         transform: translate(-50%, -55%);
@@ -43,6 +41,59 @@
             box-shadow: 0.1rem 0.1rem 2rem #222;
             animation-duration: 1.7s;
             animation-delay: 1.7s
+        }
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .carouselItem {
+        .carouselCaption {
+            width: 70%;
+        
+            h1 {
+                font-size: 3rem;
+            }
+        
+            .link {
+                font-size: 1.1rem;
+                padding: 0.8rem 1.4rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .carouselItem {
+        .carouselCaption {
+            width: 80%;
+
+            h1 {
+                font-size: 2.6rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .carouselItem {
+        .carouselCaption {
+            width: 70%;
+
+            h1 {
+                font-size: 2rem;
+            }
+
+            .link {
+                padding: 0.6rem 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .carouselItem {
+        .carouselCaption {
+            width: 80%;
         }
     }
 }

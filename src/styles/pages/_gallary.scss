@@ -309,3 +309,117 @@
         }
     }
 }
+
+@media screen and (max-width: 880px) {
+    .gallary {
+        .lightbox {
+            .wrapper {
+                .lightboxContent {
+                    height: 460px;
+                    z-index: 999;
+                }
+    
+                .arrowBtns {
+                    z-index: 9999;
+                }
+            }
+        }
+
+        .lightbox {
+            .wrapper {
+                .arrowBtns {
+                    padding: 7% 2% 0 2%;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 580px) {
+    .gallary {
+        .gallaryContents {
+            .filterMenu {
+                > li {
+                    margin: 0.2rem 0.3rem;
+                    padding: 0.3rem 0.8rem;
+                }
+            }
+    
+            .filterItems {
+                .card {
+                    min-width: 100%;
+                }
+            }
+        }
+    
+        .lightbox {
+            .wrapper {
+                .lightboxContent {
+                    height: 400px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .gallary {
+        .gallaryContents {
+            margin: 1rem 0;
+
+            .filterMenu {
+                > li {
+                    padding: 0.3rem 0.7rem;
+                    font-size: 1.2rem;
+                }
+            }
+    
+            .filterItems {
+                margin-top: 1rem;
+    
+                .card {
+                    .cardText {
+                        padding: 0 1.2rem 0 1.2rem;
+    
+                        > p {
+                            font-size: 1.2rem;
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+    
+        .lightbox {
+            .wrapper {
+                .lightboxContent {
+                    height: 360px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .gallary {
+        .lightbox {
+            .wrapper {
+                .lightboxContent {
+                    .header {
+                        padding: 0.2rem 0;
+                        p {
+                            font-size: 1.1rem;
+                        }  
+                    }
+                }
+    
+                .arrowBtns {
+                    #leftArrow,
+                    #rightArrow {
+                        padding: 1%;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const BreadCrumb = ({ page }) => {
     return (
         <div className="breadcrumb">
-            <div className="container-lg d-flex justify-content-between align-items-center">
+            <div className="container d-flex justify-content-between align-items-center">
                 {page === 'about' && <h2 className="my-0 text-uppercase">About us</h2>}
                 {(page === 'interior' || page === 'construction') && <h2 className="my-0 text-uppercase">Our Services</h2>}
                 {(page === 'project-interior' || page === 'project-construction') && <h2 className="my-0 text-uppercase">Project Gallary</h2>}
