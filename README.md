@@ -6,10 +6,10 @@ A Website for interior & construction design agency.
 
 ## Features
 ```bash
-- creative, eye-catching respoonsive ui
-- added slider and scroll animatinos
-- filter gallary with lightbox slider
-- customized bootstrap components
+✅ Creative, eye-catching responsive ui
+✅ Added slider and scroll animations
+✅ Filter gallery with lightbox slider
+✅ Customized bootstrap components
 ```
 
 ## Preview
